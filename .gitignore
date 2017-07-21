@@ -1,0 +1,8 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+PHP7.1x64LaravelWithImagick.*
+ImagickExtension.nuspec
+PHP7.1x64*
