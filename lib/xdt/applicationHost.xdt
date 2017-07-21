@@ -1,9 +1,0 @@
-<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
-  <system.webServer>
-    <runtime xdt:Transform="Insert">
-		<add name="PHP_INI_SCAN_DIR" value="d:\home\site\ini\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
-		<add name="MAGICK_HOME" value="d:\home\site\ext\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
-		<add name="MAGICK_CODER_MODULE_PATH" value="d:\home\SiteExtensions\ImagickExtension\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
-    </runtime>
-   </system.webServer>
-</configuration>

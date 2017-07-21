@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>ImagickExtension</id>
+		<title>ImagickExtension</title>
+		<version>0.1.4</version>
+		<authors>Pomirleanu Florentin Cristinel</authors>
+		<licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+		<projectUrl>https://github.com/pomirleanu/ImagickExtension/tree/x64</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Adds PHP7 Imagick to Azure Web App With composer support</description>
+		<iconUrl>https://raw.githubusercontent.com/pomirleanu/ImagickExtension/x64/Content/images/imagick.png</iconUrl>
+		<tags>php imagick composer</tags>
+	</metadata>
+	<files>
+		<file src="Content\**\*.*" target="Content" />
+	</files>
+</package>
